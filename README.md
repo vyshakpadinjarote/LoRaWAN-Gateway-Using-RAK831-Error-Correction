@@ -30,7 +30,19 @@ cd random-eui64/
 make random-eui64
 ```
 
-We are almost done with the codes and now run the command ```./random-eui64 | tr -d '-'``` in the same terminal just now where you downloaded the git. Now your terminal will show you one random MAC Address, just copy the address you recieved now and goto the previous terminal.
+We are almost done with the codes and now run the command ```./random-eui64 | tr -d '-'``` in the same terminal just now where you downloaded the git. Now your terminal will show you one random MAC Address,
+```
+./random-eui64 | tr -d '-'
+36D06C66546116EE
+./random-eui64 | tr -d '-'
+56C14B98C630E178
+./random-eui64 | tr -d '-'
+123E454624E1B7C1
+./random-eui64 | tr -d '-'
+3A04F9A32A0B532F
+```
+
+Just copy the address you recieved now and goto the previous terminal.
 
 So you are inside the file ```local_conf.json``` and you can copy paste the address where the old one is present and now press ```ctrl + X``` and press ```Y``` now press ```Enter```.
 
